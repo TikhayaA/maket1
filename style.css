@@ -1,0 +1,42 @@
+@font-face{
+	font-family: "Flatform Light";
+	src:url("font/Flatform_Light.otf");
+}
+@font-face{
+	font-family: "opensans";
+	src:url("font/opensans.ttf");
+}
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	width: 1200px;
+	margin: auto;
+	padding: 50px 0px;
+}
+.logo{
+	font-size: 40px;
+	font-family: "Flatform Light";
+}
+nav{
+	width: 50%;
+}
+nav ul{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+a{ 
+	text-decoration: none;
+}
+nav ul a{
+	color: #000;
+}
+nav ul a:hover{
+ 	text-decoration: underline;
+}
+ nav ul li {
+	list-style: none;
+	font-size: 16px;
+	font-family: "opensans"
+}
