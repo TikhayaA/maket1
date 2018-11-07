@@ -6,6 +6,12 @@
 	font-family: "opensans";
 	src:url("font/opensans.ttf");
 }
+
+@font-face{
+	font-family: "MyriadProRegular";
+	src:url("font/Myriad Pro Regular.ttf");
+}
+
 header{
 	display:flex;
 	flex-direction:row;
@@ -13,6 +19,9 @@ header{
 	width: 1200px;
 	margin: auto;
 	padding: 50px 0px;
+}
+body{
+	margin: 0;
 }
 .logo{
 	font-size: 40px;
@@ -39,4 +48,46 @@ nav ul a:hover{
 	list-style: none;
 	font-size: 16px;
 	font-family: "opensans"
+}
+.billboard{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+.billboard-img{
+	width: 100%;
+}
+.billboard-content{
+ 	position: absolute;
+ 	text-align: center;
+}
+h1{		
+	font-size: 50px;
+	margin-bottom: 0;
+}
+.billboard-content p, h1{
+	color: #4d4d4d;
+}
+
+.btn {
+	width: 290px;
+	border: 1px;
+	border-radius: 20px;
+	background: #4d4d4d;
+	font-family: MyriadProRegular;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 0; 
+
+}
+.btn a{
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn-img{
+	padding-bottom: 3px ;
 }
